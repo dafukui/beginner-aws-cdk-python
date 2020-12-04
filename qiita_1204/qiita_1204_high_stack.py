@@ -17,7 +17,7 @@ class Qiita1204Stack(core.Stack):
             nat_gateways=0,
             subnet_configuration=[
                 ec2.SubnetConfiguration(
-                    name="my-public",
+                    name="my-public-subnet",
                     subnet_type=ec2.SubnetType.PUBLIC,
                     cidr_mask=24
                 )

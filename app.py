@@ -2,7 +2,8 @@
 
 from aws_cdk import core
 
-from qiita_1204.qiita_1204_stack import Qiita1204Stack
+# from qiita_1204.qiita_1204_high_stack import Qiita1204Stack
+from qiita_1204.qiita_1204_low_stack import Qiita1204Stack
 
 
 app = core.App()
